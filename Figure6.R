@@ -10,7 +10,7 @@ library(Hmisc)
 #The following code directly reads in the variability estimates from the GitHub website and
 #stores them. User may also download the csv file directly from the GitHub page and read in the
 #file from a local directory.
-var.est<-read.csv("https://raw.githubusercontent.com/brakefieb/Misspecification-of-Correlation-Structures-in-Longitudinal-Gene-Expression-Studies-R-Scripts/main/varest.csv",stringsAsFactors = TRUE)
+var.est<-read.csv("https://raw.githubusercontent.com/brakefieb/MiCor-LGE/main/varest.csv",stringsAsFactors = TRUE)
 #var.est<-read.csv("/Users/jturner/Desktop/LongitudinalProject/Codes/varest.csv",stringsAsFactors = TRUE)
 var.est<-var.est[,1]
 
