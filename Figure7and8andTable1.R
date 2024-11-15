@@ -10,9 +10,9 @@ library(Hmisc)
 #from the GitHub website and takes about a minute. User may also download the csv file directly 
 #from the GitHub page and read in the file from a local directory to potentially save a bit of 
 #time.
-des<-read.csv("https://raw.githubusercontent.com/brakefieb/Misspecification-of-Correlation-Structures-in-Longitudinal-Gene-Expression-Studies-R-Scripts/main/designFluChallenge.csv",header=T,stringsAsFactors = TRUE)
+des<-read.csv("https://raw.githubusercontent.com/brakefieb/MiCor-LGE/main/designFluChallenge.csv",header=T,stringsAsFactors = TRUE)
 #des<-read.csv("designFluChallenge.csv",header=T,stringsAsFactors = TRUE)
-eset<-read.csv("https://raw.githubusercontent.com/brakefieb/Misspecification-of-Correlation-Structures-in-Longitudinal-Gene-Expression-Studies-R-Scripts/main/FluExp.csv",header=T,stringsAsFactors = TRUE)
+eset<-read.csv("https://raw.githubusercontent.com/brakefieb/MiCor-LGE/main/FluExp.csv",header=T,stringsAsFactors = TRUE)
 #eset<-read.csv("FluExp.csv",header=T,stringsAsFactors = TRUE)
 
 
